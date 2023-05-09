@@ -4,7 +4,7 @@ console.log(
   "background: #fadfa3; padding:5px 0;"
 );
 photos();
-//查询所有用户api “https://memos.smitten.top/api/memo/all?tag=相册”
+//查询所有用户api “https://memos.smitten.top/api/memo/all?tag=晚餐”
 function photos() {
   fetch("https://mome.cyuanx.icu/api/memo?creatorId=1&tag=相册")
     .then((res) => res.json())
